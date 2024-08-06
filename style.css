@@ -1,0 +1,228 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Arial", sans-serif;
+  background: linear-gradient(135deg, #c9d6ff, #ffdfdf);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  color: black;
+  position: relative;
+  overflow: hidden;
+}
+
+.icon {
+  position: absolute;
+  font-size: 2rem;
+  color: white;
+}
+
+.container {
+  text-align: center;
+  background: rgba(255, 255, 255, 0.9);
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.9);
+  position: relative;
+  z-index: 1;
+}
+
+h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  color: black;
+}
+
+p {
+  font-size: 1rem;
+  margin-bottom: 1.5rem;
+  color: #555;
+}
+
+input[type="date"] {
+  padding: 0.5rem;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  font-size: 1rem;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.button-wrapper {
+  display: inline-block;
+  padding: 10px;
+  border: 2px solid #7f8c8d;
+  border-radius: 10px;
+  background: linear-gradient(135deg, #2980b9, #3498db);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+button {
+  padding: 0.5rem 1.5rem;
+  border: none;
+  border-radius: 5px;
+  background-color: #fff;
+  color: #2980b9;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  outline: none;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+button:hover {
+  background-color: #2980b9;
+  color: #fff;
+  box-shadow: 0 0 15px rgba(41, 128, 185, 0.5);
+}
+
+#result {
+  margin-top: 1rem;
+  font-size: 1.2rem;
+  font-weight: bolder;
+  color: black;
+}
+
+#wellness-recommendations {
+  margin-top: 1.5rem;
+  text-align: left;
+  padding: 1rem;
+  border-radius: 10px;
+  background: #fffd74;
+  box-shadow: 0 0 10px 10px rgba(255, 165, 0, 0.5);
+  color: #333;
+}
+
+#wellness-recommendations h2 {
+  font-size: 1.5rem;
+  color: #2c3e50;
+}
+
+#wellness-recommendations p {
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.container {
+  text-align: center;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+input[type="date"] {
+  padding: 0.5rem;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+}
+
+button {
+  padding: 0.5rem 1.5rem;
+  border: none;
+  border-radius: 5px;
+  background-color: #fff;
+  color: #333;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+}
+
+button:hover {
+  background-color: #4a90e2;
+  color: #fff;
+  box-shadow: 0 0 15px rgba(74, 144, 226, 0.5);
+}
+
+#result {
+  margin-top: 1rem;
+  font-size: 1.2rem;
+  color: #fff;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Arial", sans-serif;
+  background: linear-gradient(135deg, #c9d6ff, #e2e2e2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  color: #333;
+}
+
+.container {
+  text-align: center;
+  background: rgba(255, 255, 255, 0.9);
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  color: #444;
+}
+
+p {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  color: #555;
+}
+
+input[type="date"] {
+  padding: 0.5rem;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  font-size: 1rem;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.button-wrapper {
+  display: inline-block;
+  padding: 10px;
+  border: 2px solid #4a90e2;
+  border-radius: 10px;
+  background: linear-gradient(135deg, #4a90e2, #7ba0e9);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+button {
+  padding: 0.5rem 1.5rem;
+  border: none;
+  border-radius: 5px;
+  background-color: #fff;
+  color: #4a90e2;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  outline: none;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+button:hover {
+  background-color: #4a90e2;
+  color: #fff;
+  box-shadow: 0 0 15px rgba(74, 144, 226, 0.5);
+}
+
+#result {
+  margin-top: 1rem;
+  font-size: 1.2rem;
+  color: #333;
+}
